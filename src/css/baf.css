@@ -68,12 +68,62 @@
  * Speakers
  */
 .speakers {
-  padding: 60px 10px;
+  padding: 40px 10px;
+  text-align: center;
 }
 
 .speakers-title {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+}
+
+.speaker-box {
+  display: inline-block;
+  width: 600px;
+  text-align: left;
+  margin: 0 25px;
+}
+
+.speaker-info {
+  position: relative;
+}
+
+.speaker-name {
+  position: absolute;
+  left: 240px;
+  top: -13px;
+  background-color: #E2373C;
+  color: #FFF;
+  padding: 20px 30px;
+  font-size: 2.5em;
+  border-radius: 4px;
+  width: 180px;
+}
+
+.speaker-name:after {
+  content: '';
+  border: 15px solid rgba(0, 0, 0, 0);
+  border-left: 15px solid #E2373C;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+}
+
+.speaker-avatar {
+  border-radius: 4px;
+}
+
+.speaker-network {
+  position: absolute;
+  top: 0;
+}
+
+.speaker-talk,
+.speaker-bio {
+  padding: 0 35px;
+  font-size: 1.2em;
+  color: #666;
+  margin: 40px 0;
 }
 
 /*

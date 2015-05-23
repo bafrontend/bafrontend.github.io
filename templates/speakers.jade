@@ -1,5 +1,19 @@
 section.speakers
   h2.speakers-title Quienes son los próximos oradores?
-  ul.speakers-list
-    each speaker, i in speakers
-      li #{speaker.name}
+  each speaker, i in speakers
+    article.speaker-box
+      header.speaker-info
+        h2.speaker-name= speaker.name
+        img.speaker-avatar(src=speaker.avatar, alt=speaker.name, width="300")
+        ul.speaker-network
+          each url, network in speaker.network
+            li
+              a(href=url, class="speaker-network-#{network}", target="_blank")= network
+
+      section.speaker-talk
+        h3= speaker.title
+        p!= speaker.talk
+
+      section.speaker-bio
+        h3 Bio
+        p!= speaker.bio

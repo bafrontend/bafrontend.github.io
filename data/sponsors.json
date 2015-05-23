@@ -1,17 +1,17 @@
 [
 
   {
-    "name": "Auth0",
-    "title": "Eliminates the friction of identity for your applications and APIs",
-    "logo": "http://photos4.meetupstatic.com/photos/sponsor/4/5/0/f/iab120x90_2537679.jpeg",
-    "url": "https://auth0.com/"
-  },
-
-  {
     "name": "Aerolab",
     "title": "Design and Development for Startups and Leading Brands",
     "logo": "http://photos2.meetupstatic.com/photos/sponsor/2/7/b/4/iab120x90_2530164.jpeg",
     "url": "https://aerolab.co/"
+  },
+
+  {
+    "name": "Auth0",
+    "title": "Eliminates the friction of identity for your applications and APIs",
+    "logo": "http://photos4.meetupstatic.com/photos/sponsor/4/5/0/f/iab120x90_2537679.jpeg",
+    "url": "https://auth0.com/"
   },
 
   {

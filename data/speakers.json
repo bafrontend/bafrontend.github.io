@@ -1,22 +1,25 @@
 [
   {
-    "name": "Hernan Mammana",
-    "avatar": "",
-    "twitter": "",
-    "github": "",
-    "linkedin": "",
-    "title": "Your awesome design converted to HTML/CSS by Experts!",
-    "intro": "Your awesome design converted to HTML/CSS by Experts!",
-    "bio": "Your awesome design converted to HTML/CSS by Experts!"
+    "name": "Hernán Mammana",
+    "bio": "Desde el 2004 vengo trabajando en desarrollo web. Siempre me encantó el Front-end, casi fue como amor a primera vista. Además, dicté clases en varios institutos de HTML, CSS & ActionScript. <br> Desde hace 4 años trabajo en MercadoLibre y actualmente lidero el equipo de Front-end. Me apasiona arreglar cosas y querer hacerlas de la mejor forma posible.",
+    "avatar": "http://photos1.meetupstatic.com/photos/event/1/c/e/4/600_434227396.jpeg",
+    "network": {
+      "twitter": "https://twitter.com/hmammana",
+      "github": "https://github.com/hmammana"
+    },
+    "title": "Mobile First, PE & RESS en MercadoLibre",
+    "talk": "La experiencia de vender ropa en MercadoLibre estaba diseñada y construida solamente para dispositivos desktop. Cuando el tráfico mobile fue lo suficientemente grande se re diseño la experiencia a partir de las técnicas de Mobile First, Progressive Enhancement y RESS."
   },
+
   {
-    "name": "Pixel2HTML",
-    "avatar": "",
-    "twitter": "",
-    "github": "",
-    "linkedin": "",
-    "title": "Your awesome design converted to HTML/CSS by Experts!",
-    "intro": "Your awesome design converted to HTML/CSS by Experts!",
-    "bio": "Your awesome design converted to HTML/CSS by Experts!"
+    "name": "Hernán Mammana",
+    "bio": "Desde el 2004 vengo trabajando en desarrollo web. Siempre me encantó el Front-end, casi fue como amor a primera vista. Además, dicté clases en varios institutos de HTML, CSS & ActionScript. <br> Desde hace 4 años trabajo en MercadoLibre y actualmente lidero el equipo de Front-end. Me apasiona arreglar cosas y querer hacerlas de la mejor forma posible.",
+    "avatar": "http://photos1.meetupstatic.com/photos/event/1/c/e/4/600_434227396.jpeg",
+    "network": {
+      "twitter": "https://twitter.com/hmammana",
+      "github": "https://github.com/hmammana"
+    },
+    "title": "Mobile First, PE & RESS en MercadoLibre",
+    "talk": "La experiencia de vender ropa en MercadoLibre estaba diseñada y construida solamente para dispositivos desktop. Cuando el tráfico mobile fue lo suficientemente grande se re diseño la experiencia a partir de las técnicas de Mobile First, Progressive Enhancement y RESS."
   }
 ]
