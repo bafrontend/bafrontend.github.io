@@ -1,13 +1,3 @@
-a,
-a:visited {
-  color: #EB7106;
-}
-
-a:hover {
-  color: #EB7106 !important;
-  background-color: #1A171B;
-  text-decoration: none;
-}
 
 /*
  * Header
@@ -15,7 +5,7 @@ a:hover {
 .header-main {
   background: #e2373c;
   text-align: center;
-  color: #fff;
+  color: #FFF;
   padding: 10px 0;
   min-height: 400px;
   position: relative;
@@ -68,10 +58,71 @@ a:hover {
   margin: 0 5px;
   padding: 5px 10px;
   background-color: #d0000d;
-  color: rgba(255,255,255,.5);
+  color: rgba(255,255,255,.8);
   box-shadow: 0px -1px rgba(0,0,0,.1);
   border-radius: 4px;
   font-weight: bold;
+}
+
+/*
+ * Speakers
+ */
+.speakers {
+  padding: 60px 10px;
+}
+
+.speakers-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/*
+ * Venue
+ */
+.venue {
+  position: relative;
+}
+
+.venue iframe {
+  pointer-events: none;
+}
+
+.marker {
+  position: absolute;
+  top: 35px;
+  left: 120px;
+  background-color: #e2373c;
+  border-radius: 3px;
+  color: #fff;
+  width: 390px;
+  font-size: 19px;
+}
+
+.marker address,
+.marker time {
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.marker address {
+  font-style: normal;
+  width: 45%;
+  padding-left: 55px;
+}
+
+.marker time {
+  vertical-align: top;
+  width: 25%;
+  padding-left: 35px
+}
+
+.marker:after {
+  content: '';
+  border: 30px solid rgba(0, 0, 0, 0);
+  border-left: 30px solid #e2373c;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
 }
 
 /*
@@ -79,17 +130,18 @@ a:hover {
  */
 .sponsors {
   text-align: center;
+  padding: 60px 10px;
 }
 
 .sponsors-title {
-  
+  margin-bottom: 25px;
 }
 
 .sponsors-list li {
   list-style: none;
   display: inline-block;
-  margin: 5px;
-} 
+  margin: 15px;
+}
 
 /*
  * Footer

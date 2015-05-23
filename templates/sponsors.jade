@@ -1,15 +1,7 @@
 section.sponsors
-  h3.sponsors-title Nuestros Sponsors
+  h3.sponsors-title Nuestros ❤ sponsors
   ul.sponsors-list
-    li
-      img(src="" alt="Mango Logo")
-    li
-      img(src="" alt="Mango Logo")
-    li
-      img(src="" alt="Mango Logo")
-    li
-      img(src="" alt="Mango Logo")
-    li
-      img(src="" alt="Mango Logo")
-    li
-      img(src="" alt="Mango Logo")
+    each sponsor, i in sponsors
+      li
+        a(href=sponsor.url, title="#{sponsor.name}: #{sponsor.title}", target="_blank")
+          img(src=sponsor.logo alt=sponsor.name)
