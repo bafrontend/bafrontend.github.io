@@ -96,7 +96,7 @@
   background-color: #BE242C;
   line-height: 100%;
   display: inline-block;
-  padding: 0 39px 25px;
+  padding: 0 25px 25px;
   font-weight: bold;
   opacity: .8;
 }
@@ -147,7 +147,7 @@
 .btn {
   display: inline-block;
   border: 3px solid #FFF;
-  padding: 25px 100px;
+  padding: 25px 80px;
   border-radius: 50px;
   font-size: 26px;
   font-weight: bold;
