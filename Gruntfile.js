@@ -41,6 +41,17 @@ module.exports = function(grunt) {
           {'expand': true, 'cwd': 'src/assets/', 'src': ['**'], 'dest': 'build/assets'}
         ]
       }
+    },
+
+    'htmlmin': {
+      'dist': {
+        'options': {
+          'collapseWhitespace': true
+        },
+        'files': [
+          { 'expand': true, 'cwd': 'build/', 'src': ['**/*.html'], 'dest': 'build/' }
+        ]
+      }
     }
 
   });
@@ -49,9 +60,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-wintersmith-compile');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-contrib-copy');
 
   // Resgister task(s).
-  grunt.registerTask('default', ['build']);
-  grunt.registerTask('build', ['wintersmith_compile', 'uglify', 'cssmin', 'copy']);
+  grunt.registerTask('default', ['dev']);
+  grunt.registerTask('dev', ['wintersmith_compile', 'copy']);
+  grunt.registerTask('build', ['wintersmith_compile', 'uglify', 'cssmin', 'htmlmin', 'copy']);
 };

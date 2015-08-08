@@ -5,7 +5,7 @@
 .header-main {
   background: #e2373c;
   text-align: center;
-  color: #FFF;
+  color: #fff;
   padding: 10px 0;
   min-height: 400px;
   position: relative;
@@ -16,8 +16,8 @@
 .header-main:before {
   content: '';
   display: block;
-  background: #e2373c url('../../assets/city-red2.png') no-repeat center bottom;
-  opacity: .3;
+  background: #e2373c url('../../assets/city.png') no-repeat center 80%;
+  background-attachment: fixed;
   position: absolute;
   z-index: -1;
   top: 0;
@@ -33,14 +33,14 @@
   display: inline-block;
   width: 250px;
   height: 54px;
-  margin: 25px 0 30px;
+  margin: 20px 0;
   background: url('../../assets/baf-logo.png') no-repeat;
   text-indent: -9999px;
 }
 
 .header-title {
   font-size: 3em;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 .header-subtitle {
@@ -48,6 +48,9 @@
   margin: 0;
 }
 
+/*
+ * Tags
+ */
 .baf-tags {
   margin: 20px 0;
 }
@@ -55,33 +58,130 @@
 .baf-tags li {
   display: inline-block;
   list-style: none;
-  margin: 0 5px;
+  margin: 0 5px 10px;
   padding: 5px 10px;
-  background-color: #d0000d;
+  background-color: #BE242C;
   color: rgba(255,255,255,.8);
   box-shadow: 0px -1px rgba(0,0,0,.1);
   border-radius: 4px;
   font-weight: bold;
+  font-size: 14px;
+}
+
+
+/*
+ * Meetup details
+ */
+.meetup-details {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.meetup-venue {
+  margin-right: 25px;
+}
+
+/*
+ * Countdown
+ */
+.countdown {
+  margin-top: 30px;
+}
+
+.countdown-number {
+  position: relative;
+  z-index: 1;
+  font-size: 8em;
+  border-radius: 10px;
+  background-color: #BE242C;
+  line-height: 100%;
+  display: inline-block;
+  padding: 0 39px 25px;
+  font-weight: bold;
+  opacity: .8;
+}
+
+.countdown-number:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #E2373C;
+  z-index: -1;
+}
+
+.countdown-number span:before,
+.countdown-number span:after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 3px;
+  height: 15px;
+  background-color: #E2373C;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.countdown-number span:before {
+  left: 7%;
+}
+
+.countdown .countdown-number span:after {
+  right: 7%;
+}
+
+.countdown-label {
+  font-size: 24px;
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+/*
+ * RSVP button
+ */
+.btn {
+  display: inline-block;
+  border: 3px solid #FFF;
+  padding: 25px 100px;
+  border-radius: 50px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #e2373c;
+  background-color: #fff;
+}
+
+.btn-rsvp {
+  margin: 30px 0;
 }
 
 /*
  * Speakers
  */
 .speakers {
-  padding: 40px 10px;
+  padding: 20px 10px 0;
   text-align: center;
 }
 
 .speakers-title {
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 
 .speaker-box {
   display: inline-block;
-  width: 600px;
+  vertical-align: top;
+  max-width: 550px;
   text-align: left;
-  margin: 0 25px;
 }
 
 .speaker-info {
@@ -89,41 +189,46 @@
 }
 
 .speaker-name {
-  position: absolute;
-  left: 240px;
-  top: -13px;
   background-color: #E2373C;
-  color: #FFF;
+  color: #fff;
   padding: 20px 30px;
-  font-size: 2.5em;
+  font-size: 1.5em;
   border-radius: 4px;
-  width: 180px;
-}
-
-.speaker-name:after {
-  content: '';
-  border: 15px solid rgba(0, 0, 0, 0);
-  border-left: 15px solid #E2373C;
-  position: absolute;
-  bottom: -15px;
-  left: 0;
+  text-align: center;
 }
 
 .speaker-avatar {
   border-radius: 4px;
+  width:100%;
 }
 
 .speaker-network {
-  position: absolute;
-  top: 0;
+  padding: 10px 0;
+  list-style: none;
+}
+
+.speaker-network li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.speaker-network-icon {
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  background-size: contain;
+  text-indent: -999px;
+  overflow: hidden;
+}
+
+.speaker-network-twitter {
+  background: url('../../assets/icons/twitter.svg') center center no-repeat;
 }
 
 .speaker-talk,
 .speaker-bio {
-  padding: 0 35px;
   font-size: 1.2em;
   color: #666;
-  margin: 40px 0;
 }
 
 /*
@@ -138,14 +243,14 @@
 }
 
 .marker {
-  position: absolute;
-  top: 35px;
-  left: 120px;
   background-color: #e2373c;
   border-radius: 3px;
   color: #fff;
-  width: 390px;
   font-size: 19px;
+}
+
+.marker img {
+  display: none;
 }
 
 .marker address,
@@ -157,22 +262,13 @@
 .marker address {
   font-style: normal;
   width: 45%;
-  padding-left: 55px;
+  padding-left: 12px;
 }
 
 .marker time {
   vertical-align: top;
-  width: 25%;
-  padding-left: 35px
-}
-
-.marker:after {
-  content: '';
-  border: 30px solid rgba(0, 0, 0, 0);
-  border-left: 30px solid #e2373c;
-  position: absolute;
-  bottom: -30px;
-  left: 0;
+  width: 35%;
+  padding-left: 20px
 }
 
 /*
@@ -198,12 +294,15 @@
  */
 .footer-main {
   text-align: center;
-  padding: 30px;
+  padding: 15px;
   background-color: #444;
   color: #fff;
   font-size: 1.1em;
 }
 
+.footer-main a {
+  color: #FFF;
+}
 
 /*
  * Shared
@@ -219,4 +318,65 @@
 @media all and (min-width:40em) {}
 
 /* Large Screens */
-@media all and (min-width: 54em) {}
+@media all and (min-width: 54em) {
+  .speaker-box {
+    margin: 25px;
+  }
+
+  .speaker-name {
+    position: absolute;
+    left: 215px;
+    top: -13px;
+    width: 180px;
+    text-align: left;
+  }
+
+  .speaker-name:after {
+    content: '';
+    border: 15px solid rgba(0, 0, 0, 0);
+    border-left: 15px solid #E2373C;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+  }
+
+  .speaker-avatar {
+    width: 250px;
+  }
+
+  .speaker-network {
+    position: absolute;
+    top: 60px;
+    left: 250px;
+    padding: 10px;
+  }
+
+  .speaker-talk,
+  .speaker-bio {
+    padding: 0 25px;
+    margin: 40px 0;
+  }
+
+  .marker {
+    position: absolute;
+    top: 35px;
+    left: 120px;
+    width: 390px;
+  }
+
+  .marker:after {
+    content: '';
+    border: 30px solid rgba(0, 0, 0, 0);
+    border-left: 30px solid #e2373c;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+  }
+
+  .marker img {
+    display: block;
+  }
+  .marker address {
+    padding-left: 35px;
+  }
+}

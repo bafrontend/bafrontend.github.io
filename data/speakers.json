@@ -1,25 +1,43 @@
 [
   {
-    "name": "Hernán Mammana",
-    "bio": "Desde el 2004 vengo trabajando en desarrollo web. Siempre me encantó el Front-end, casi fue como amor a primera vista. Además, dicté clases en varios institutos de HTML, CSS & ActionScript. <br> Desde hace 4 años trabajo en MercadoLibre y actualmente lidero el equipo de Front-end. Me apasiona arreglar cosas y querer hacerlas de la mejor forma posible.",
-    "avatar": "http://photos1.meetupstatic.com/photos/event/1/c/e/4/600_434227396.jpeg",
+    "name": "Sergio Behrends",
+    "bio": "Sergio Behrends es Diseñador Industrial, pero codea desde antes de terminar la secundaria (Alguien dijo tablas?). Actualmente Lead Developer en @aerolab, entusiasta de la tecnología siempre experimentando nuevas tecnologías.",
+    "avatar": "https://pbs.twimg.com/profile_images/2706396076/e6460bb35fd40d5daba9f6a1841bb394_200x200.png",
     "network": {
-      "twitter": "https://twitter.com/hmammana",
-      "github": "https://github.com/hmammana"
+      "twitter": "https://twitter.com/blunk"
     },
-    "title": "Mobile First, PE & RESS en MercadoLibre",
-    "talk": "La experiencia de vender ropa en MercadoLibre estaba diseñada y construida solamente para dispositivos desktop. Cuando el tráfico mobile fue lo suficientemente grande se re diseño la experiencia a partir de las técnicas de Mobile First, Progressive Enhancement y RESS."
+    "title": "The utility belt of devs",
+    "talk": "Hay tantas tareas repetitivas que un dev tiene que realizar, compilar CSS, JS, templates, lints, unit test, etc. La charla pretende dar a conocer sobre automatizadores de tareas para mejorar el workflow del dev y ser más productivo."
   },
 
   {
-    "name": "Hernán Mammana",
-    "bio": "Desde el 2004 vengo trabajando en desarrollo web. Siempre me encantó el Front-end, casi fue como amor a primera vista. Además, dicté clases en varios institutos de HTML, CSS & ActionScript. <br> Desde hace 4 años trabajo en MercadoLibre y actualmente lidero el equipo de Front-end. Me apasiona arreglar cosas y querer hacerlas de la mejor forma posible.",
-    "avatar": "http://photos1.meetupstatic.com/photos/event/1/c/e/4/600_434227396.jpeg",
+    "name": "Sebastian Zelonka",
+    "avatar": "https://pbs.twimg.com/profile_images/613559525589807104/ja9ksuHT_200x200.jpg",
     "network": {
-      "twitter": "https://twitter.com/hmammana",
-      "github": "https://github.com/hmammana"
+      "twitter": "https://twitter.com/sebazelonka"
     },
-    "title": "Mobile First, PE & RESS en MercadoLibre",
-    "talk": "La experiencia de vender ropa en MercadoLibre estaba diseñada y construida solamente para dispositivos desktop. Cuando el tráfico mobile fue lo suficientemente grande se re diseño la experiencia a partir de las técnicas de Mobile First, Progressive Enhancement y RESS."
+    "title": "UX - Patrones de Diseño",
+    "talk": "Intro a la charla de patrones de diseño. Un overview de todo lo que hay para investigar. Patrones de interacción, patrones visuales, mejores prácticas."
+  },
+
+  {
+    "name": "Lucas Rudi",
+    "avatar": "https://abs.twimg.com/sticky/default_profile_images/default_profile_0_200x200.png",
+    "network": {
+      "twitter": "https://twitter.com/ThePiedraStone"
+    },
+    "title": "So Now The Front Is The New Back",
+    "talk": "El tema de la charla va a ser mostrar los problemas que un backender tuvo cuando hacia front end y extrapolar eso a la inversa. Entender las limitaciones de tener el backend en el front end, y ver algunas cosas ya existen."
+  },
+
+  {
+    "name": "Juani Ruiz Echazu",
+    "avatar": "https://pbs.twimg.com/profile_images/613456441895165952/gggMTLYf_200x200.jpg",
+    "network": {
+      "twitter": "https://twitter.com/heyimjuani"
+    },
+    "title": "UX mobile para humanos",
+    "talk": "Cuestiones que en Aerolab dominan la manera de encarar el diseño de un proyecto mobile. "
   }
+
 ]

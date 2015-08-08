@@ -5,6 +5,9 @@
   "homepage": "http://bafrontend.org",
   "author": "Guille Paz <guille87paz@gmail.com",
   "scripts": {
+    "watch": "node ./watch.js",
+    "server": "cd build/; ruby -run -ehttpd . -p3000",
+    "dev": "grunt dev && npm run server & npm run watch",
     "build": "grunt build"
   },
   "repository": {
@@ -12,13 +15,16 @@
     "url": "https://github.com/bafrontend/website"
   },
   "devDependencies": {
-    "wintersmith": "^2.1.0",
-    "underscore": "1.4.x",
-    "grunt": "~0.4.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-copy": "^0.7.0",
     "grunt-contrib-cssmin": "^0.10.0",
     "grunt-contrib-uglify": "^0.6.0",
-    "grunt-wintersmith-compile": "^0.1.1"
+    "grunt-contrib-htmlmin": "^0.4.0",
+    "grunt-wintersmith-compile": "^0.1.1",
+    "wintersmith": "^2.1.0",
+    "chokidar": "^1.0.0-rc5",
+    "colors": "^1.0.3"
   },
   "license": "MIT"
 }

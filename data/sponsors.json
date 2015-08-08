@@ -3,42 +3,49 @@
   {
     "name": "Aerolab",
     "title": "Design and Development for Startups and Leading Brands",
-    "logo": "http://photos2.meetupstatic.com/photos/sponsor/2/7/b/4/iab120x90_2530164.jpeg",
+    "logo": "assets/sponsors/aerolab.jpeg",
     "url": "https://aerolab.co/"
   },
 
   {
     "name": "Auth0",
     "title": "Eliminates the friction of identity for your applications and APIs",
-    "logo": "http://photos4.meetupstatic.com/photos/sponsor/4/5/0/f/iab120x90_2537679.jpeg",
+    "logo": "assets/sponsors/auth0.jpeg",
     "url": "https://auth0.com/"
   },
 
   {
     "name": "Escuela Davinci",
     "title": "Primera escuela de arte multimedial",
-    "logo": "http://photos3.meetupstatic.com/photos/sponsor/1/a/3/a/iab120x90_2526714.jpeg",
+    "logo": "assets/sponsors/davinci.jpeg",
     "url": "http://www.davinci.edu.ar/"
   },
 
   {
     "name": "Flowics",
     "title": "Social Engagement & Analytics",
-    "logo": "http://photos3.meetupstatic.com/photos/sponsor/4/5/1/8/iab120x90_2537688.jpeg",
+    "logo": "assets/sponsors/flowics.jpeg",
     "url": "https://flowics.com/"
   },
 
   {
     "name": "Mango",
     "title": "Aceptá pagos con tarjeta de crédito en tu sitio web o aplicación móvil.",
-    "logo": "http://photos3.meetupstatic.com/photos/sponsor/4/5/1/2/iab120x90_2537682.jpeg",
+    "logo": "assets/sponsors/mango.jpeg",
     "url": "https://getmango.com/"
+  },
+
+  {
+    "name": "MercadoLibre",
+    "title": "Aceptá pagos con tarjeta de crédito en tu sitio web o aplicación móvil.",
+    "logo": "assets/sponsors/mercadolibre.jpeg",
+    "url": "http://mercadolibre.com/"
   },
 
   {
     "name": "Pixel2HTML",
     "title": "Your awesome design converted to HTML/CSS by Experts!",
-    "logo": "http://photos4.meetupstatic.com/photos/sponsor/2/a/0/iab120x90_2340672.jpeg",
+    "logo": "assets/sponsors/px2html.jpeg",
     "url": "https://pixel2html.com/"
   }
 ]
