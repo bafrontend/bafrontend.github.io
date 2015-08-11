@@ -4,7 +4,7 @@ script.
     var $label = document.querySelector('.js-countdown-label');
     var date = $countdown.getAttribute('data-date');
 
-    (function updateCountdown() {
+    function updateCountdown() {
       var now  = new Date();
       var kickoff = Date.parse(date);
       var diff = kickoff - now;
@@ -21,7 +21,9 @@ script.
       }
 
       $countdown.innerHTML = days;
-    }());
+    }
+
+    setInterval(updateCountdown, 1000);
 
     navigator.serviceWorker
       .register('/sw.js', { scope: '/' })
