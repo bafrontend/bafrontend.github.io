@@ -386,14 +386,13 @@ body {
   width: 256px;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  display: none;
   background-color: #333;
-  color:#fff;
+  color: #fff;
 }
 
 .slideout-panel {
-  background:#fff;
-  position:relative;
+  background: #fff;
+  position: relative;
   z-index: 1;
 }
 
@@ -408,58 +407,12 @@ body {
 }
 
 /*
- * Button hamburger
- */
-.btn-hamburger {
-  padding:0;
-  width:42px;
-  height:42px;
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  z-index: 1;
-  border: none;
-  outline: none;
-  background: transparent;
-}
-
-.btn-hamburger:before,
-.btn-hamburger:after {
-  content: ' ';
-  display: block;
-  width: 55%;
-  height: 2px;
-  background: #fff;
-  position: absolute;
-  left: 55%;
-  margin-left: -32%;
-  -webkit-transition: -webkit-transform 0.2s;
-  transition: transform 0.2s;
-}
-
-.btn-hamburger:before {
-  top: 35%;
-}
-
-.btn-hamburger:after {
-  bottom: 35%;
-}
-
-.slideout-open .btn-hamburger:before {
-  top: auto;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
-.slideout-open .btn-hamburger:after {
-  bottom: auto;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-/*
  * Menu
  */
+.menu {
+  display: none;
+}
+
 .menu a {
   color: #fff;
   display: block;
@@ -518,4 +471,54 @@ body {
 .menu-section-list a:hover {
   background-color: rgba(255, 255, 255, 0.1);
   text-decoration: none;
+}
+
+/*
+ * Button hamburger
+ */
+.btn-hamburger {
+  padding:0;
+  width:42px;
+  height:42px;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.btn-hamburger:before,
+.btn-hamburger:after {
+  content: ' ';
+  display: block;
+  width: 55%;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  left: 55%;
+  margin-left: -32%;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+}
+
+.btn-hamburger:before {
+  top: 35%;
+}
+
+.btn-hamburger:after {
+  bottom: 35%;
+}
+
+.slideout-open .btn-hamburger:before {
+  top: auto;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.slideout-open .btn-hamburger:after {
+  bottom: auto;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
