@@ -3,19 +3,20 @@
 importScripts('/serviceworker-cache-polyfill.js');
 
 var CACHE_NAME = 'bafrontend';
-var CACHE_VERSION = '0.0.1';
+var CACHE_VERSION = '0.0.2';
 
 var urlsToCache = [
   '/',
   '/src/css/styles.min.css',
   '/assets/baf-logo.png',
   '/assets/city.png',
+  '/assets/community.jpeg',
   '/assets/frontenders.png',
   '/assets/sponsors/auth0.jpeg',
   '/assets/sponsors/aerolab.jpeg',
   '/assets/sponsors/davinci.jpeg',
   '/assets/sponsors/flowics.jpeg',
-  '/assets/sponsors/mango.jpeg',
+  '/assets/sponsors/mango.png',
   '/assets/sponsors/mercadolibre.jpeg',
   '/assets/sponsors/px2html.jpeg',
   '/assets/icons/twitter.svg',
@@ -32,7 +33,6 @@ this.addEventListener('install', function(eve) {
   var urls = urlsToCache.map(function(url) {
     return new Request(url, {credentials: 'include'});
   });
-  '/src/assets/frontenders.png',
   eve.waitUntil(
     caches.open(CACHE_NAME + '-v' + CACHE_VERSION)
       .then(function(cache) {
