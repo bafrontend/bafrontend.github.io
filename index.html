@@ -2,13 +2,13 @@
         var $countdown = document.querySelector('.js-countdown-number');
         var $label = document.querySelector('.js-countdown-label');
         var date = $countdown.getAttribute('data-date');
-        
-        (function updateCountdown() {
+
+        function updateCountdown() {
           var now  = new Date();
           var kickoff = Date.parse(date);
           var diff = kickoff - now;
           var days = Math.ceil(diff / (1000*60*60*24));
-          
+
           if (days === 1) {
             $label.innerHTML = 'Día';
           } else if (days === 0) {
@@ -18,10 +18,12 @@
             days = '¯\\_(ツ)_/¯';
             $label.innerHTML = '';
           }
-          
+
           $countdown.innerHTML = days;
-        }());
-        
+        };
+
+        setInterval(updateCountdown, 1000);
+
         navigator.serviceWorker
           .register('/sw.js', { scope: '/' })
           .then(function(registration) {
