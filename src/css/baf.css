@@ -367,3 +367,155 @@
     padding-left: 35px;
   }
 }
+
+/*
+ * Slideout styles
+ */
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.slideout-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  width: 256px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: none;
+  background-color: #333;
+  color:#fff;
+}
+
+.slideout-panel {
+  background:#fff;
+  position:relative;
+  z-index: 1;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+  overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+  display: block;
+}
+
+/*
+ * Button hamburger
+ */
+.btn-hamburger {
+  padding:0;
+  width:42px;
+  height:42px;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.btn-hamburger:before,
+.btn-hamburger:after {
+  content: ' ';
+  display: block;
+  width: 55%;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  left: 55%;
+  margin-left: -32%;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+}
+
+.btn-hamburger:before {
+  top: 35%;
+}
+
+.btn-hamburger:after {
+  bottom: 35%;
+}
+
+.slideout-open .btn-hamburger:before {
+  top: auto;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.slideout-open .btn-hamburger:after {
+  bottom: auto;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*
+ * Menu
+ */
+.menu a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.menu-header {
+  border-bottom: 1px solid #2A2D2F;
+  padding: 15px 0 15px 20px;
+  background-size: 32px;
+}
+
+.menu-header-title {
+  margin: 0;
+  font-size: 1em;
+  font-weight: 400;
+  position: relative;
+}
+
+.menu-header-title:before {
+  content: '';
+  background: url(../../assets/baf-logo.png) no-repeat;
+  width: 31px;
+  height: 28px;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: 130px;
+  margin-right: 10px;
+}
+
+.menu-section {
+  margin: 25px 0;
+}
+
+.menu-section-title {
+  text-transform: uppercase;
+  color: #85888D;
+  font-weight: 200;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 0 20px;
+  margin: 0;
+}
+
+.menu-section-list {
+  padding: 0;
+  margin: 10px 0;
+  list-style: none;
+}
+
+.menu-section-list a {
+  padding: 10px 20px;
+}
+
+.menu-section-list a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+}

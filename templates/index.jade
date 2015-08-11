@@ -2,10 +2,13 @@ doctype html
 html(lang="es")
   include head
   body
-    include header
-    include speakers
-    include venue
-    include sponsors
-    include community
-    include footer
-    include scripts
+    include menu
+    main.panel
+      button.btn-hamburger.js-slideout-toggle
+      include header
+      include speakers
+      include venue
+      include sponsors
+      include community
+      include footer
+      include scripts
