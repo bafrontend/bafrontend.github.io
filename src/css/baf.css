@@ -3,27 +3,13 @@
  * Header
  */
 .header-main {
-  background: #e2373c;
+  background: #e2373c url('../../assets/city.png') no-repeat center bottom;
   text-align: center;
   color: #fff;
   padding: 10px 0;
   min-height: 400px;
   position: relative;
-  z-index: 2;
   min-height: 500px;
-}
-
-.header-main:before {
-  content: '';
-  display: block;
-  background: #e2373c url('../../assets/city.png') no-repeat center 80%;
-  background-attachment: fixed;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
 
 /*
@@ -99,6 +85,7 @@
   padding: 0 25px 25px;
   font-weight: bold;
   opacity: .8;
+  min-width: 128px;
 }
 
 .countdown-number:before {
