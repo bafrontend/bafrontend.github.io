@@ -1,11 +1,10 @@
-
 script.
   (function() {
     var $countdown = document.querySelector('.js-countdown-number');
     var $label = document.querySelector('.js-countdown-label');
     var date = $countdown.getAttribute('data-date');
 
-    function updateWCTime() {
+    (function updateCountdown() {
       var now  = new Date();
       var kickoff = Date.parse(date);
       var diff = kickoff - now;
@@ -22,9 +21,7 @@ script.
       }
 
       $countdown.innerHTML = days;
-    }
-
-    setInterval(updateWCTime, 1000);
+    }());
 
     navigator.serviceWorker
       .register('/sw.js', { scope: '/' })
