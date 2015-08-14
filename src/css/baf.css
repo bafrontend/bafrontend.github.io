@@ -80,12 +80,13 @@
   font-size: 8em;
   border-radius: 10px;
   background-color: #BE242C;
-  line-height: 100%;
   display: inline-block;
   padding: 10px 25px;
   font-weight: bold;
   opacity: .8;
   min-width: 128px;
+  height: 140px;
+  line-height: .98em;
 }
 
 .countdown-number:before {
