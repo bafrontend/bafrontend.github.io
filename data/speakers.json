@@ -1,43 +1,32 @@
 [
   {
-    "name": "Sergio Behrends",
-    "bio": "Sergio Behrends es Diseñador Industrial, pero codea desde antes de terminar la secundaria (Alguien dijo tablas?). Actualmente Lead Developer en @aerolab, entusiasta de la tecnología siempre experimentando nuevas tecnologías.",
-    "avatar": "https://pbs.twimg.com/profile_images/2706396076/e6460bb35fd40d5daba9f6a1841bb394_200x200.png",
+    "name": "Sebastián Pérez",
+    "bio": "",
+    "avatar": "https://pbs.twimg.com/profile_images/540694153345400835/FNIxVIvE_200x200.jpeg",
     "network": {
-      "twitter": "https://twitter.com/blunk"
+      "twitter": "https://twitter.com/perezsebastianm"
     },
-    "title": "The utility belt of devs",
-    "talk": "Hay tantas tareas repetitivas que un dev tiene que realizar, compilar CSS, JS, templates, lints, unit test, etc. La charla pretende dar a conocer sobre automatizadores de tareas para mejorar el workflow del dev y ser más productivo."
+    "title": "E2E Testing",
+    "talk": ""
   },
 
   {
-    "name": "Sebastian Zelonka",
-    "avatar": "https://pbs.twimg.com/profile_images/613559525589807104/ja9ksuHT_200x200.jpg",
+    "name": "Lourdes Montano",
+    "avatar": "https://pbs.twimg.com/profile_images/622447958701801472/9Odj6Nf4_200x200.jpg",
     "network": {
-      "twitter": "https://twitter.com/sebazelonka"
+      "twitter": "https://twitter.com/loumontano"
     },
-    "title": "UX - Patrones de Diseño",
-    "talk": "Intro a la charla de patrones de diseño. Un overview de todo lo que hay para investigar. Patrones de interacción, patrones visuales, mejores prácticas."
+    "title": "Estilos dinámicos con Sass Maps",
+    "talk": "Veremos cómo crear un set de estilos dinámicamente aprovechando la funcionalidad de Maps de Sass, explicando cómo funciona y sus usos mas útiles."
   },
 
   {
-    "name": "Lucas Rudi",
-    "avatar": "https://abs.twimg.com/sticky/default_profile_images/default_profile_0_200x200.png",
+    "name": "Evangelina Ferreira",
+    "avatar": "https://pbs.twimg.com/profile_images/540127281490845697/_2zxxUOt_200x200.jpeg",
     "network": {
-      "twitter": "https://twitter.com/ThePiedraStone"
+      "twitter": "https://twitter.com/evaferreira92"
     },
-    "title": "So Now The Front Is The New Back",
-    "talk": "El tema de la charla va a ser mostrar los problemas que un backender tuvo cuando hacia front end y extrapolar eso a la inversa. Entender las limitaciones de tener el backend en el front end, y ver algunas cosas ya existen."
-  },
-
-  {
-    "name": "Juani Ruiz Echazu",
-    "avatar": "https://pbs.twimg.com/profile_images/613456441895165952/gggMTLYf_200x200.jpg",
-    "network": {
-      "twitter": "https://twitter.com/heyimjuani"
-    },
-    "title": "UX mobile para humanos",
-    "talk": "Cuestiones que en Aerolab dominan la manera de encarar el diseño de un proyecto mobile. "
+    "title": "Tips para animar con Sass",
+    "talk": "Cómo aprovechar funcionalidades de Sass para realizar animaciones en CSS más rápido y con menos código."
   }
-
 ]

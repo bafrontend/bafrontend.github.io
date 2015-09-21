@@ -14,7 +14,6 @@
   "require": {
     "meetup": "./data/meetup.json",
     "speakers": "./data/speakers.json",
-    "venue": "./data/venue.json",
     "sponsors": "./data/sponsors.json"
   }
 }
