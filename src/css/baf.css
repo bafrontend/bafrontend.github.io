@@ -168,7 +168,7 @@
 .speaker-box {
   display: inline-block;
   vertical-align: top;
-  max-width: 550px;
+  width: 100%;
   text-align: left;
 }
 
@@ -309,6 +309,7 @@
 @media all and (min-width: 54em) {
   .speaker-box {
     margin: 25px;
+    width: 550px;
   }
 
   .speaker-name {
