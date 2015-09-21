@@ -3,7 +3,7 @@
 importScripts('/serviceworker-cache-polyfill.js');
 
 var CACHE_NAME = 'bafrontend';
-var CACHE_VERSION = '0.0.7';
+var CACHE_VERSION = '0.0.8';
 
 var urlsToCache = [
   '/',
@@ -49,10 +49,6 @@ this.addEventListener('active', function(eve) {
   caches.keys().then(function(cacheNames) {
     return Promise.all(
       cacheNames.map(function(cacheName) {
-        if (cacheName.indexOf(currentCacheName) == -1) {
-          return;
-        }
-
         if (cacheName != currentCacheName) {
           return caches.delete(cacheName);
         }
