@@ -1,6 +1,13 @@
 [
 
   {
+    "name": "Acamica",
+    "title": "Plataforma educativa que ofrece cursos online gratuitos y en español.",
+    "logo": "assets/sponsors/acamica.jpeg",
+    "url": "https://www.acamica.com/"
+  },
+
+  {
     "name": "Aerolab",
     "title": "Design and Development for Startups and Leading Brands",
     "logo": "assets/sponsors/aerolab.jpeg",

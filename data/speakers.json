@@ -1,32 +1,35 @@
 [
   {
-    "name": "Sebastián Pérez",
+    "name": "Celina Twardowski",
     "bio": "",
-    "avatar": "https://pbs.twimg.com/profile_images/540694153345400835/FNIxVIvE_200x200.jpeg",
+    "avatar": "https://pbs.twimg.com/profile_images/2816856904/a736c21d6487ba51cefa499fde32f883_200x200.jpeg",
     "network": {
-      "twitter": "https://twitter.com/perezsebastianm"
+      "twitter": "https://twitter.com/celitwa"
     },
-    "title": "E2E Testing",
-    "talk": "Introducción al desarrollo de tests end to end con Nightwatch.js y Selenium web driver."
+    "title": "Lo que Flash nos dejó",
+    "talk": "Repasar cómo estamos 5 años después de que Steve Jobs anunció que sus dispositivos no soportaban Flash. Nociones básicas de HTML5 Canvas, SVG y SVG animations, WebGL y cuánto de lo que hacíamos con Flash podemos hacer con estas tecnologías."
   },
 
   {
-    "name": "Lourdes Montano",
-    "avatar": "https://pbs.twimg.com/profile_images/622447958701801472/9Odj6Nf4_200x200.jpg",
+    "name": "Hernan Torrisi",
+    "bio": "",
+    "avatar": "https://pbs.twimg.com/profile_images/456847423692734464/DfeGFkjy_200x200.jpeg",
     "network": {
-      "twitter": "https://twitter.com/loumontano"
+      "twitter": "https://twitter.com/airnanan"
     },
-    "title": "Estilos dinámicos con Sass Maps",
-    "talk": "Veremos cómo crear un set de estilos dinámicamente aprovechando la funcionalidad de Maps de Sass, explicando cómo funciona y sus usos mas útiles."
+    "title": "bodymovin. animaciones en HTML5.",
+    "talk": "bodymovin es una libreria en la que estoy trabajando que exporta animaciones hechas en after effects a svg y canvas. La charla va a tratar sobre las diferentes alternativas que existen hoy día para animar en la web, una introducción al plugin, las nuevas especificaciones de los banners con la partida de flash."
   },
 
   {
-    "name": "Evangelina Ferreira",
-    "avatar": "https://pbs.twimg.com/profile_images/540127281490845697/_2zxxUOt_200x200.jpeg",
+    "name": "Ignacio Ricci",
+    "bio": "",
+    "avatar": "https://pbs.twimg.com/profile_images/639644283922989056/ImifMPWT_200x200.jpg",
     "network": {
-      "twitter": "https://twitter.com/evaferreira92"
+      "twitter": "https://twitter.com/ignacioricci)"
     },
-    "title": "Tips para animar con Sass",
-    "talk": "Cómo aprovechar funcionalidades de Sass para realizar animaciones en CSS más rápido y con menos código."
+    "title": "Sitios estáticos multi-idioma con Jade y JSON",
+    "talk": "Un approach simple que ahorra tiempo y logra mayor eficiencia a la hora de hacer sitios estáticos que soporten múltipes idiomas."
   }
+
 ]
