@@ -3,7 +3,7 @@
 importScripts('/serviceworker-cache-polyfill.js');
 
 var CACHE_NAME = 'bafrontend';
-var CACHE_VERSION = '0.0.11';
+var CACHE_VERSION = '0.0.12';
 
 var urlsToCache = [
   '/',
@@ -12,6 +12,7 @@ var urlsToCache = [
   '/assets/city.png',
   '/assets/community.jpeg',
   '/assets/frontenders.png',
+  '/assets/sponsors/acamica.jpeg',
   '/assets/sponsors/auth0.jpeg',
   '/assets/sponsors/aerolab.jpeg',
   '/assets/sponsors/davinci.jpeg',
