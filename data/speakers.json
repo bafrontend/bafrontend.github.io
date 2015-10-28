@@ -11,14 +11,14 @@
   },
 
   {
-    "name": "Hernan Torrisi",
+    "name": "Hernán Torrisi",
     "bio": "",
     "avatar": "https://pbs.twimg.com/profile_images/456847423692734464/DfeGFkjy_200x200.jpeg",
     "network": {
       "twitter": "https://twitter.com/airnanan"
     },
     "title": "bodymovin. animaciones en HTML5.",
-    "talk": "bodymovin es una libreria en la que estoy trabajando que exporta animaciones hechas en after effects a svg y canvas. La charla va a tratar sobre las diferentes alternativas que existen hoy día para animar en la web, una introducción al plugin, las nuevas especificaciones de los banners con la partida de flash."
+    "talk": "Introducción a bodymovin, una librería que exporta animaciones hechas en after effects a SVG y Canvas. Además, vamos a ver las diferentes alternativas que existen hoy en día para animar en la web y las nuevas especificaciones de los banners con la partida de flash."
   },
 
   {
@@ -26,10 +26,10 @@
     "bio": "",
     "avatar": "https://pbs.twimg.com/profile_images/639644283922989056/ImifMPWT_200x200.jpg",
     "network": {
-      "twitter": "https://twitter.com/ignacioricci)"
+      "twitter": "https://twitter.com/ignacioricci"
     },
-    "title": "Sitios estáticos multi-idioma con Jade y JSON",
-    "talk": "Un approach simple que ahorra tiempo y logra mayor eficiencia a la hora de hacer sitios estáticos que soporten múltipes idiomas."
+    "title": "Lo esencial es invisible a los ojos: el viaje de un diseñador al mundo del backend",
+    "talk": "Una pequeña aventura de un diseñador aprendiendo a programar en Node.js."
   }
 
 ]
