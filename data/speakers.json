@@ -1,35 +1,25 @@
 [
-  {
-    "name": "Celina Twardowski",
-    "bio": "",
-    "avatar": "https://pbs.twimg.com/profile_images/2816856904/a736c21d6487ba51cefa499fde32f883_200x200.jpeg",
-    "network": {
-      "twitter": "https://twitter.com/celitwa"
-    },
-    "title": "Lo que Flash nos dejó",
-    "talk": "Repasar cómo estamos 5 años después de que Steve Jobs anunció que sus dispositivos no soportaban Flash. Nociones básicas de HTML5 Canvas, SVG y SVG animations, WebGL y cuánto de lo que hacíamos con Flash podemos hacer con estas tecnologías."
-  },
 
   {
-    "name": "Hernán Torrisi",
-    "bio": "",
-    "avatar": "https://pbs.twimg.com/profile_images/456847423692734464/DfeGFkjy_200x200.jpeg",
+    "name": "Guillermo Rauch",
+    "bio": "Guillermo Rauch fue el CTO y co-fundador de LearnBoost y Cloudup, adquirida por Wordpress.com en 2013. Se especializa en la web Realtime. Guillermo es el creador de socket.io, uno de los proyectos de JavaScript más populares en GitHub.",
+    "avatar": "https://cldup.com/q73A-IPMAg-3000x3000.jpeg",
     "network": {
-      "twitter": "https://twitter.com/airnanan"
+      "twitter": "https://twitter.com/rauchg"
     },
-    "title": "bodymovin. animaciones en HTML5.",
-    "talk": "Introducción a bodymovin, una librería que exporta animaciones hechas en after effects a SVG y Canvas. Además, vamos a ver las diferentes alternativas que existen hoy en día para animar en la web y las nuevas especificaciones de los banners con la partida de flash."
+    "title": "Pure UI: the future of design & discovery.",
+    "talk": "Cómo podemos utilizar herramientas para determinar la completitud, complejidad, y correctitud de nuestras UIs. Cómo podemos automatizar el desarrollo desde el diseño."
   },
 
-  {
-    "name": "Ignacio Ricci",
-    "bio": "",
-    "avatar": "https://pbs.twimg.com/profile_images/639644283922989056/ImifMPWT_200x200.jpg",
+   {
+    "name": "Juan Manuel Serruya",
+    "bio": "Juan Manuel empezó a escribir software hace más de 10 años. Luego de comenzar su carrera desarrollando videojuegos en la industria nacional, empezó a trabajar con empresas extranjeras, luego de pasar por proyectos con Qualcomm y un startup en Berlin, hoy lidera un equipo de desarrolladores mobile en Spotify, basado en el HQ en Estocolmo.",
+    "avatar": "https://cldup.com/4Mx-pW6jhg-2000x2000.jpeg",
     "network": {
-      "twitter": "https://twitter.com/ignacioricci"
+      "twitter": "https://twitter.com/jmserruya"
     },
-    "title": "Lo esencial es invisible a los ojos: el viaje de un diseñador al mundo del backend",
-    "talk": "Una pequeña aventura de un diseñador aprendiendo a programar en Node.js."
+    "title": "Agile en escala, la tribu Spotify.",
+    "talk": "Cómo escalan las metodologías ágiles cuando hay cientos de personas contribuyendo a tu proyecto?. En esta charla Juan Manuel describe los problemas y estructura organizacional que utiliza Spotify para mantener velocidad e innovación en una organización con cientos de desarrolladores y diseñadores."
   }
 
 ]

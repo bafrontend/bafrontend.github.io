@@ -14,7 +14,7 @@ section.speakers
         h3= speaker.title
         p!= speaker.talk
 
-      //- if (speaker.bio)
-      //-   section.speaker-bio
-      //-     h3 Bio
-      //-     p!= speaker.bio
+      if (speaker.bio)
+        section.speaker-bio
+          h3 Bio
+          p!= speaker.bio
