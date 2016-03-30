@@ -1,25 +1,25 @@
 [
 
   {
-    "name": "Guillermo Rauch",
-    "bio": "Guillermo Rauch fue el CTO y co-fundador de LearnBoost y Cloudup, adquirida por Wordpress.com en 2013. Se especializa en la web Realtime. Guillermo es el creador de socket.io, uno de los proyectos de JavaScript más populares en GitHub.",
-    "avatar": "https://cldup.com/q73A-IPMAg-3000x3000.jpeg",
+    "name": "Ariel Wiznia",
+    "bio": "Ariel comenzó a trabajar en la web en el año 2003 en el auge de Flash. Mas tarde se especializa en HTML y CSS y comienza a trabajar en diferentes agencias de Buenos Aires. Actualmente es desarrollador front end en R/GA Buenos Aires.",
+    "avatar": "https://cldup.com/P1Y1vuqSIE.jpg",
     "network": {
-      "twitter": "https://twitter.com/rauchg"
+      "twitter": "https://twitter.com/wiznia"
     },
-    "title": "Pure UI: the future of design & discovery.",
-    "talk": "Cómo podemos utilizar herramientas para determinar la completitud, complejidad, y correctitud de nuestras UIs. Cómo podemos automatizar el desarrollo desde el diseño."
+    "title": "CSS Grids o: Cómo aprendí a dejar de preocuparme y amar el nuevo spec.",
+    "talk": "Padeciste las tablas? sufriste con los floats? te pasaron un layout imposible de replicar con CSS? No mas! con el avance del nuevo spec de grids vas a poder crear estructuras imposibles, responsive y de forma rápida y fácil."
   },
 
    {
-    "name": "Juan Manuel Serruya",
-    "bio": "Juan Manuel empezó a escribir software hace más de 10 años. Luego de comenzar su carrera desarrollando videojuegos en la industria nacional, empezó a trabajar con empresas extranjeras, luego de pasar por proyectos con Qualcomm y un startup en Berlin, hoy lidera un equipo de desarrolladores mobile en Spotify, basado en el HQ en Estocolmo.",
-    "avatar": "https://cldup.com/4Mx-pW6jhg-2000x2000.jpeg",
+    "name": "Alejandro Crosa",
+    "bio": "Alejandro, nacido y criado en Argentina, unos años atrás llegó a Silicon Valley donde trabajó en los comienzos de LinkedIn, en estos días trabaja como Staff Software Engineer en Twitter Inc.",
+    "avatar": "https://cldup.com/EMS8cdDqZ--3000x3000.jpeg",
     "network": {
-      "twitter": "https://twitter.com/jmserruya"
+      "twitter": "https://twitter.com/esacrosa"
     },
-    "title": "Agile en escala, la tribu Spotify.",
-    "talk": "Cómo escalan las metodologías ágiles cuando hay cientos de personas contribuyendo a tu proyecto?. En esta charla Juan Manuel describe los problemas y estructura organizacional que utiliza Spotify para mantener velocidad e innovación en una organización con cientos de desarrolladores y diseñadores."
+    "title": "Todo el software esta roto.",
+    "talk": "Como industria no podemos asegurar que el software que escribimos va a funcionar correctamente y de manera predecible, en esta charla propongo contar como es el proceso de escribir código que luego es usado por cientos de millones de usuarios. Historias de guerra en LinkedIn y Twitter."
   }
 
 ]

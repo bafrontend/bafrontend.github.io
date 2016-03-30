@@ -22,10 +22,10 @@
   },
 
   {
-    "name": "Escuela Davinci",
-    "title": "Primera escuela de arte multimedial",
-    "logo": "assets/sponsors/davinci.jpeg",
-    "url": "http://www.davinci.edu.ar/"
+    "name": "Digital House",
+    "title": "Formamos las nuevas generaciones de coders y profesionales digitales mediante cursos de programación intensivos, presenciales y prácticos.",
+    "logo": "assets/sponsors/digitalhouse.png",
+    "url": "http://www.digitalhouse.com/"
   },
 
   {
@@ -33,13 +33,6 @@
     "title": "Social Engagement & Analytics",
     "logo": "assets/sponsors/flowics.jpeg",
     "url": "https://flowics.com/"
-  },
-
-  {
-    "name": "Mango",
-    "title": "Aceptá pagos con tarjeta de crédito en tu sitio web o aplicación móvil.",
-    "logo": "assets/sponsors/mango.png",
-    "url": "https://getmango.com/"
   },
 
   {
