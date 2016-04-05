@@ -40,12 +40,6 @@
     "title": "Donde comprar y vender de todo.",
     "logo": "assets/sponsors/mercadolibre.jpeg",
     "url": "http://mercadolibre.com/"
-  },
-
-  {
-    "name": "Pixel2HTML",
-    "title": "Your awesome design converted to HTML/CSS by Experts!",
-    "logo": "assets/sponsors/px2html.jpeg",
-    "url": "https://pixel2html.com/"
   }
+
 ]
