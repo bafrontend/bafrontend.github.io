@@ -7,8 +7,8 @@
   "scripts": {
     "watch": "node ./watch.js",
     "server": "cd build/; ruby -run -ehttpd . -p3000",
-    "dev": "grunt dev && npm run server & npm run watch",
-    "build": "grunt build"
+    "dev": "./node_modules/.bin/grunt dev && npm run server & npm run watch",
+    "build": "./node_modules/.bin/grunt build"
   },
   "repository": {
     "type": "git",

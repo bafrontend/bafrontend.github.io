@@ -1,25 +1,25 @@
 [
 
   {
-    "name": "Ariel Wiznia",
-    "bio": "Ariel comenzó a trabajar en la web en el año 2003 en el auge de Flash. Mas tarde se especializa en HTML y CSS y comienza a trabajar en diferentes agencias de Buenos Aires. Actualmente es desarrollador front end en R/GA Buenos Aires.",
-    "avatar": "https://cldup.com/P1Y1vuqSIE.jpg",
+    "name": "Airin Grillo",
+    "bio": "Airin es diseñadora web con pasión por UX, que junto al equipo de desarrollo de Andreani; encaran los más desafiantes proyectos.",
+    "avatar": "https://cldup.com/T85tEL3jUs-600x600.jpeg",
     "network": {
-      "twitter": "https://twitter.com/wiznia"
+      "twitter": "https://twitter.com/Airin_UX"
     },
-    "title": "CSS Grids o: Cómo aprendí a dejar de preocuparme y amar el nuevo spec.",
-    "talk": "Padeciste las tablas? sufriste con los floats? te pasaron un layout imposible de replicar con CSS? No mas! con el avance del nuevo spec de grids vas a poder crear estructuras imposibles, responsive y de forma rápida y fácil."
+    "title": "Urgent Task: Deleitar a nuestros usuarios!",
+    "talk": "Consigamos que el usuario sea felíz, motivándolo al usar nuestras interfaces. Investigando, definiendo y aplicando herramientas de trabajo colaborativo, lograremos una satisfacción indispensable. \"In the user, we trust\""
   },
 
    {
-    "name": "Alejandro Crosa",
-    "bio": "Alejandro, nacido y criado en Argentina, unos años atrás llegó a Silicon Valley donde trabajó en los comienzos de LinkedIn, en estos días trabaja como Staff Software Engineer en Twitter Inc.",
-    "avatar": "https://cldup.com/EMS8cdDqZ--3000x3000.jpeg",
+    "name": "Evangelina Ferreira",
+    "bio": "Evangelina Ferreira es diseñadora web freelance, docente y coordinadora de cursos de Extensión Universitaria en UTN BA.",
+    "avatar": "https://cldup.com/wxM1Y23QJ1-600x600.jpeg",
     "network": {
-      "twitter": "https://twitter.com/esacrosa"
+      "twitter": "https://twitter.com/evaferreira92"
     },
-    "title": "Todo el software esta roto.",
-    "talk": "Como industria no podemos asegurar que el software que escribimos va a funcionar correctamente y de manera predecible, en esta charla propongo contar como es el proceso de escribir código que luego es usado por cientos de millones de usuarios. Historias de guerra en LinkedIn y Twitter."
+    "title": "Raiders of the Lost Transforms",
+    "talk": "Apareció en 2010, pero sin embargo la propiedad transforms esconde poderes secretos detrás de sus caminos matemáticos. En esta charla, buscamos repasar la historia de sus sistemas de coordenadas para comprender de una forma lógica su funcionamiento y lograr un mejor acercamiento a las transformaciones del futuro (porque nos encantan los cambios de sintaxis!)."
   }
 
 ]
