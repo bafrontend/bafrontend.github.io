@@ -3,7 +3,7 @@
 importScripts('/serviceworker-cache-polyfill.js');
 
 var CACHE_NAME = 'bafrontend';
-var CACHE_VERSION = '0.0.20';
+var CACHE_VERSION = '0.0.21';
 
 var urlsToCache = [
   '/',
