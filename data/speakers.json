@@ -1,25 +1,25 @@
 [
 
   {
-    "name": "Airin Grillo",
-    "bio": "Airin es diseñadora web con pasión por UX, que junto al equipo de desarrollo de Andreani; encaran los más desafiantes proyectos.",
-    "avatar": "https://cldup.com/T85tEL3jUs-600x600.jpeg",
+    "name": "Pablo Moretti",
+    "bio": "Pablo es Software Manager Engineer en MercadoLibre y pensaba que la ansiedad era un problema, hasta que entendió que podía ayudarlo a hacer que la web funcione más rápido.",
+    "avatar": "https://cldup.com/Kk3Lj7Nobc-600x600.jpeg",
     "network": {
-      "twitter": "https://twitter.com/Airin_UX"
+      "twitter": "https://twitter.com/elsantob"
     },
-    "title": "Urgent Task: Deleitar a nuestros usuarios!",
-    "talk": "Consigamos que el usuario sea felíz, motivándolo al usar nuestras interfaces. Investigando, definiendo y aplicando herramientas de trabajo colaborativo, lograremos una satisfacción indispensable. \"In the user, we trust\""
+    "title": "Latencia en la web",
+    "talk": "¿Qué es la latencia y cómo afecta la web? Desde ahí vemos qué podemos hacer para sobrevivir con las herramientas que tenemos con ejemplos de la vida real."
   },
 
    {
-    "name": "Evangelina Ferreira",
-    "bio": "Evangelina Ferreira se desempeña como desarrolladora web freelance y docente de varios institutos y universidades. Ha presentado charlas y workshops en distintas conferencias como CSSConf US 2014, JSConf 2014, CSSConf Australia 2015 y SassConf 2015.",
-    "avatar": "https://cldup.com/wxM1Y23QJ1-600x600.jpeg",
+    "name": "Dan Zajdband",
+    "bio": "Dan es un programador Argentino que actualmente se desarrolla como Knight-Mozilla Fellow en el New York Times, colaborando en el Coral Project (Mozilla / New York Times / Washington Post) donde trabaja en proyectos Open Source para mejorar las comunidades online alrededor del periodismo. Dan está además desarrollando herramientas de Realidad Virtual para periodistas.",
+    "avatar": "https://cldup.com/OtO0UeKyAB-600x600.jpeg",
     "network": {
-      "twitter": "https://twitter.com/evaferreira92"
+      "twitter": "https://twitter.com/impronunciable"
     },
-    "title": "Raiders of the Lost Transforms",
-    "talk": "Apareció en 2010, pero sin embargo la propiedad transforms esconde poderes secretos detrás de sus caminos matemáticos. En esta charla, buscamos repasar la historia de sus sistemas de coordenadas para comprender de una forma lógica su funcionamiento y lograr un mejor acercamiento a las transformaciones del futuro (porque nos encantan los cambios de sintaxis!)."
+    "title": "Moebius (O por qué creo en la idea detrás de las Progressive Web Applications)",
+    "talk": "Los navegadores están ofreciendo tecnologías que hasta hace poco pertenecían solamente al reino \"nativo\". En esta charla voy a contar mi experiencia armando una de estas web apps que funcionan aunque estés viajando a Plaza de Mayo en la línea A y como toda esta nueva movida es simplemente un rebranding de una gran idea que viene dando vueltas hace más de una década en la escena del desarrollo web."
   }
 
 ]

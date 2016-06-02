@@ -29,6 +29,13 @@
   },
 
   {
+    "name": "Escuela Davinci",
+    "title": "Escuela Davinci: Primera escuela de arte multimedial",
+    "logo": "assets/sponsors/davinci.jpeg",
+    "url": "https://www.davinci.edu.ar/"
+  },
+
+  {
     "name": "Flowics",
     "title": "Social Engagement & Analytics",
     "logo": "assets/sponsors/flowics.jpeg",
