@@ -1,29 +1,47 @@
 'use strict';
 
-importScripts('/serviceworker-cache-polyfill.js');
+Cache.prototype.add||(Cache.prototype.add=function(t){return this.addAll([t])}),Cache.prototype.addAll||(Cache.prototype.addAll=function(t){function e(t){this.name="NetworkError",this.code=19,this.message=t}var r=this;return e.prototype=Object.create(Error.prototype),Promise.resolve().then(function(){if(arguments.length<1)throw new TypeError;return t=t.map(function(t){return t instanceof Request?t:t+""}),Promise.all(t.map(function(t){"string"==typeof t&&(t=new Request(t));var r=new URL(t.url).protocol;if("http:"!==r&&"https:"!==r)throw new e("Invalid scheme");return fetch(t.clone())}))}).then(function(e){return Promise.all(e.map(function(e,n){return r.put(t[n],e)}))}).then(function(){return void 0})});
 
 var CACHE_NAME = 'bafrontend';
-var CACHE_VERSION = '0.0.22';
+var CACHE_VERSION = '2.0.4';
 
 var urlsToCache = [
   '/',
-  '/src/css/styles.min.css',
-  '/assets/baf-logo.png',
-  '/assets/city.png',
-  '/assets/community.jpeg',
-  '/assets/frontenders.png',
-  '/assets/sponsors/acamica.jpeg',
-  '/assets/sponsors/auth0.jpeg',
-  '/assets/sponsors/aerolab.jpeg',
-  '/assets/sponsors/digitalhouse.png',
-  '/assets/sponsors/davinci.jpeg',
-  '/assets/sponsors/flowics.jpeg',
-  '/assets/sponsors/mercadolibre.jpeg',
-  '/assets/icons/twitter.svg',
-  '/assets/icons/github.svg',
-  '/assets/icons/linkedin.svg',
-  '/assets/Sun/Sun-ExtraLight.ttf',
-  '/assets/favicons/favicon.ico'
+  '/scripts/main.js',
+  '/styles/main.css',
+
+  '/images/speakers/celina.jpg',
+  '/images/speakers/dan.jpg',
+
+  '/images/aerolab.svg',
+  '/images/arrow-black.svg',
+  '/images/arrow.svg',
+  '/images/circles-background.svg',
+  '/images/cowntdown.svg',
+  '/images/dh-1.jpg',
+  '/images/dh-2.jpg',
+  '/images/digital-house.svg',
+  '/images/github.svg',
+  '/images/in-waves-mask-bottom-black.svg',
+  '/images/in-waves-mask-bottom.svg',
+  '/images/in-waves-mask-top-black.svg',
+  '/images/in-waves-mask-top.svg',
+  '/images/in-waves-wave-1.svg',
+  '/images/in-waves-wave-2.svg',
+  '/images/in-waves-wave-3.svg',
+  '/images/in-waves-wave-4.svg',
+  '/images/in-waves-wave-5.svg',
+  '/images/in-waves-wave-6.svg',
+  '/images/in-waves-wave-7.svg',
+  '/images/in-waves-wave-8.svg',
+  '/images/in-waves-wave.svg',
+  '/images/locator-black.svg',
+  '/images/locator.svg',
+  '/images/logo.svg',
+  '/images/meetup.svg',
+  '/images/mercado-libre.svg',
+  '/images/social-sharing.png',
+  '/images/twitter-icon.svg'
 ];
 
 /**
