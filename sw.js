@@ -17,14 +17,15 @@ var urlsToCache = [
 
   '/images/utn/utn-1.jpg',
   '/images/utn/utn-2.jpg',
+  '/images/digitalhouse/dh-1.jpg',
+  '/images/digitalhouse/dh-2.jpg',
 
   '/images/aerolab.svg',
   '/images/arrow-black.svg',
   '/images/arrow.svg',
   '/images/circles-background.svg',
   '/images/cowntdown.svg',
-  '/images/dh-1.jpg',
-  '/images/dh-2.jpg',
+
   '/images/digital-house.svg',
   '/images/github.svg',
   '/images/in-waves-mask-bottom-black.svg',
